@@ -44,6 +44,12 @@ TagManager:
   - name: BackGround
     uniqueID: 661918803
     locked: 0
+  - name: Grass
+    uniqueID: 195199407
+    locked: 0
+  - name: Bomb
+    uniqueID: 3926103673
+    locked: 0
   - name: Player
     uniqueID: 2066805787
     locked: 0
