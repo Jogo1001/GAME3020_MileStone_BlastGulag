@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public float movespeed;
     public Vector2 input;
 
+    public Rigidbody2D PlayerRb;
+    public bool IsPlayerMoving;
 
     void Start()
     {
@@ -15,6 +17,9 @@ public class PlayerController : MonoBehaviour
   
     void Update()
     {
-        
+       if(!IsPlayerMoving)
+        {
+
+        }
     }
 }
