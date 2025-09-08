@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4559245512530660273
+--- !u!1 &3503188388930783436
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6476981182060777027}
-  - component: {fileID: 2253276434800696352}
-  - component: {fileID: 7692322728692033673}
-  - component: {fileID: -1520595163201674554}
+  - component: {fileID: 1244931201455245708}
+  - component: {fileID: 3338217570925080159}
+  - component: {fileID: 1659275710644224818}
+  - component: {fileID: -6635929474131146365}
   m_Layer: 0
-  m_Name: Bomb
+  m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6476981182060777027
+--- !u!4 &1244931201455245708
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559245512530660273}
+  m_GameObject: {fileID: 3503188388930783436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.5, y: 4.5, z: 0}
@@ -34,17 +34,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2253276434800696352
+--- !u!95 &3338217570925080159
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559245512530660273}
+  m_GameObject: {fileID: 3503188388930783436}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6cfae3300d8fdc44a89c8ebeb21577e3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 067519bdd6434484c89a17252619b10a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -56,13 +56,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!212 &7692322728692033673
+--- !u!212 &1659275710644224818
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559245512530660273}
+  m_GameObject: {fileID: 3503188388930783436}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -100,31 +100,34 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -368863623
-  m_SortingLayer: 3
+  m_SortingLayerID: -831162509
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4585791342908316790, guid: ebd25166456c12a4a816aa46b4c5f775, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8125, y: 0.875}
+  m_Size: {x: 0.5, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1520595163201674554
+--- !u!114 &-6635929474131146365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559245512530660273}
+  m_GameObject: {fileID: 3503188388930783436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b646ccb96c99734189e464569ed8666, type: 3}
+  m_Script: {fileID: 11500000, guid: 18737e3601e15c043bf8dcaef2d6bb8e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bomb
-  BombTimeToExplode: 2
-  ExplosionPrefab: {fileID: 3503188388930783436, guid: 039d446d4ca99dd43a5f7744a77b410e, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Explosion
+  duration: 0.5
+  explosionRange: 2
+  destructibleMask:
+    serializedVersion: 2
+    m_Bits: 0

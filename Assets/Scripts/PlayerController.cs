@@ -4,14 +4,16 @@ public class PlayerController : MonoBehaviour
 {
 
     public float PlayerMoveSpeed = 5f;
-
-
     public bool IsPlayerMoving;
 
     private Vector2 Movement;
     public Rigidbody2D PlayerRB;
-
     private Animator GeorgeAnimator;
+
+
+    public GameObject Bomb_Prefab;
+    public Transform BombSpawnPoint;
+    public KeyCode bombkey = KeyCode.Space; // Player One
 
     private void Awake()
     {
@@ -67,6 +69,12 @@ public class PlayerController : MonoBehaviour
             {
                 GeorgeAnimator.SetBool("DownIdle", true);
             }
+        }
+
+
+        if (Input.GetKeyUp(bombkey))
+        {
+            Instantiate(Bomb_Prefab, BombSpawnPoint.position, Quaternion.identity);
         }
 
     }
