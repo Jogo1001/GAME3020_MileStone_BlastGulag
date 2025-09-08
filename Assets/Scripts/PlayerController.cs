@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         GeorgeAnimator = GetComponent<Animator>();
+        PlayerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
 
@@ -56,6 +57,8 @@ public class PlayerController : MonoBehaviour
             if (GeorgeAnimator.GetFloat("MoveX") < 0)
             {
                 GeorgeAnimator.SetBool("LeftIdle", true);
+               
+
             }
             else if (GeorgeAnimator.GetFloat("MoveX") > 0)
             {
