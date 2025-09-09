@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - destructibleblocks
   - Water
   - UI
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Explosion
     uniqueID: 3463804787
+    locked: 0
+  - name: Blocks
+    uniqueID: 417029739
     locked: 0
   - name: Player
     uniqueID: 2066805787
