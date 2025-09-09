@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7692322728692033673}
   - component: {fileID: -1520595163201674554}
   - component: {fileID: 9175154909563871875}
-  - component: {fileID: 3564221337287222008}
+  - component: {fileID: 4643178871566709558}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4559245512530660273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.5, y: 4.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -157,7 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &3564221337287222008
+--- !u!61 &4643178871566709558
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,5 +201,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8125, y: 0.875}
+  m_Size: {x: 0.8125, y: 0.8125}
   m_EdgeRadius: 0
