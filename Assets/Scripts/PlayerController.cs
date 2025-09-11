@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyUp(bombkey))
+        if (Input.GetKeyDown(bombkey))
         {
             Instantiate(Bomb_Prefab, BombSpawnPoint.position, Quaternion.identity);
         }
