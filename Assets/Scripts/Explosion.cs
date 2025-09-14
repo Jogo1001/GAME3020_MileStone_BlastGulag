@@ -2,29 +2,25 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public float duration = 0.5f;
-    public float explosionRange = 2f;
-    public LayerMask destructibleMask;
+    public AnimatedSpriteRenderer start;
+    public AnimatedSpriteRenderer middle;
+    public AnimatedSpriteRenderer end;
 
-    void Start()
+    public void SetActiveRenderer(AnimatedSpriteRenderer renderer)
     {
-        Destroy(gameObject, duration);
-
-      
-        ExplodeInDirection(Vector2.up);
-        ExplodeInDirection(Vector2.down);
-        ExplodeInDirection(Vector2.left);
-        ExplodeInDirection(Vector2.right);
+        start.enabled = renderer == start;
+        middle.enabled = renderer == middle;
+        end.enabled = renderer == end;
     }
 
-    void ExplodeInDirection(Vector2 dir)
+    public void SetDirection(Vector2 direction)
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, dir, explosionRange, destructibleMask);
+        float angle = Mathf.Atan2(direction.y, direction.x);
+        transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+    }
 
-        if (hit.collider != null)
-        {
-           
-            Destroy(hit.collider.gameObject);
-        }
+    public void DestroyAfter(float seconds)
+    {
+        Destroy(gameObject, seconds);
     }
 }

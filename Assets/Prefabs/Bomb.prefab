@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6476981182060777027}
   - component: {fileID: 2253276434800696352}
   - component: {fileID: 7692322728692033673}
-  - component: {fileID: -1520595163201674554}
   - component: {fileID: 9175154909563871875}
   - component: {fileID: 4643178871566709558}
-  m_Layer: 0
+  - component: {fileID: 5458264967392788199}
+  m_Layer: 7
   m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,20 +116,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1520595163201674554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559245512530660273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b646ccb96c99734189e464569ed8666, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bomb
-  BombTimeToExplode: 2
-  ExplosionPrefab: {fileID: 3503188388930783436, guid: 039d446d4ca99dd43a5f7744a77b410e, type: 3}
 --- !u!50 &9175154909563871875
 Rigidbody2D:
   serializedVersion: 5
@@ -138,7 +124,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4559245512530660273}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -187,7 +173,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -203,3 +189,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8125, y: 0.8125}
   m_EdgeRadius: 0
+--- !u!114 &5458264967392788199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4559245512530660273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da01658c125cb6e45b0745cff4829f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
+  idleSprite: {fileID: 0}
+  animationSprites: []
+  animationTime: 0.25
+  loop: 1
+  idle: 1

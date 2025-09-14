@@ -11,9 +11,7 @@ public class PlayerTwoController : MonoBehaviour
     private Animator GeorgeAnimator;
 
 
-    public GameObject Bomb_Prefab;
-    public Transform BombSpawnPoint;
-    public KeyCode bombkey = KeyCode.Return; // Player One
+
 
     private void Awake()
     {
@@ -75,10 +73,6 @@ public class PlayerTwoController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(bombkey))
-        {
-            Instantiate(Bomb_Prefab, BombSpawnPoint.position, Quaternion.identity);
-        }
 
     }
     void FixedUpdate()
