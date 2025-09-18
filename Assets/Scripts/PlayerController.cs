@@ -2,96 +2,80 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
+    public float playerMoveSpeed = 5f;
+    public Rigidbody2D playerRB;
+    public bool isPlayerMoving;
 
-    public float PlayerMoveSpeed = 5f;
-    public bool IsPlayerMoving;
+    private Vector2 movement;
+    private Vector2 lastDirection = Vector2.down; // default facing down
+    private Animator georgeAnimator;
 
-    private Vector2 Movement;
-    public Rigidbody2D PlayerRB;
-    private Animator GeorgeAnimator;
-
-
-
+    [Header("Slash")]
+    public SlashController slashController; // reference to the slash controller script
 
     private void Awake()
     {
-        GeorgeAnimator = GetComponent<Animator>();
-        PlayerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
+        georgeAnimator = GetComponent<Animator>();
+        playerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
-
-
-
 
     void Update()
     {
+        // --- Movement Input ---
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        Movement.x = Input.GetAxisRaw("Horizontal");
-        Movement.y = Input.GetAxisRaw("Vertical");
+        if (movement.y != 0) movement.x = 0;
 
-
-        // remove diagonal movement
-        if (Movement.y != 0)
+        if (movement != Vector2.zero)
         {
-            Movement.x = 0;
+            lastDirection = movement.normalized;
         }
 
-
-        // George Walk Animation
-        if (Movement != Vector2.zero)
+        // --- Animation ---
+        if (movement != Vector2.zero)
         {
-
-            GeorgeAnimator.SetFloat("MoveX", Movement.x);
-            GeorgeAnimator.SetFloat("MoveY", Movement.y);
-            IsPlayerMoving = true;
-
+            georgeAnimator.SetFloat("MoveX", movement.x);
+            georgeAnimator.SetFloat("MoveY", movement.y);
+            isPlayerMoving = true;
             ResetIdle();
         }
         else
         {
-            // George stopped moving
-            IsPlayerMoving = false;
+            isPlayerMoving = false;
 
-            // set idle direction depending on last movement
-            if (GeorgeAnimator.GetFloat("MoveX") < 0)
-            {
-                GeorgeAnimator.SetBool("LeftIdle", true);
-               
-
-            }
-            else if (GeorgeAnimator.GetFloat("MoveX") > 0)
-            {
-                GeorgeAnimator.SetBool("RightIdle", true);
-            }
-            else if (GeorgeAnimator.GetFloat("MoveY") > 0)
-            {
-                GeorgeAnimator.SetBool("UpIdle", true);
-            }
-            else if (GeorgeAnimator.GetFloat("MoveY") < 0)
-            {
-                GeorgeAnimator.SetBool("DownIdle", true);
-            }
+            if (georgeAnimator.GetFloat("MoveX") < 0)
+                georgeAnimator.SetBool("LeftIdle", true);
+            else if (georgeAnimator.GetFloat("MoveX") > 0)
+                georgeAnimator.SetBool("RightIdle", true);
+            else if (georgeAnimator.GetFloat("MoveY") > 0)
+                georgeAnimator.SetBool("UpIdle", true);
+            else if (georgeAnimator.GetFloat("MoveY") < 0)
+                georgeAnimator.SetBool("DownIdle", true);
         }
 
-
-
-
+        // --- Attack Input ---
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (slashController != null)
+                slashController.PerformSlash(lastDirection);
+        }
     }
+
     void FixedUpdate()
     {
-        // George Movement
-        if (Movement != Vector2.zero)
+        if (movement != Vector2.zero)
         {
-            PlayerRB.MovePosition(PlayerRB.position + Movement * PlayerMoveSpeed * Time.fixedDeltaTime);
-
+            playerRB.MovePosition(playerRB.position + movement * playerMoveSpeed * Time.fixedDeltaTime);
         }
-
     }
+
     public void ResetIdle()
     {
-
-        GeorgeAnimator.SetBool("LeftIdle", false);
-        GeorgeAnimator.SetBool("RightIdle", false);
-        GeorgeAnimator.SetBool("UpIdle", false);
-        GeorgeAnimator.SetBool("DownIdle", false);
+        georgeAnimator.SetBool("LeftIdle", false);
+        georgeAnimator.SetBool("RightIdle", false);
+        georgeAnimator.SetBool("UpIdle", false);
+        georgeAnimator.SetBool("DownIdle", false);
     }
 }

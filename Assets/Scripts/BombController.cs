@@ -47,20 +47,23 @@ public class BombController : MonoBehaviour
 
         yield return new WaitForSeconds(bombfusetime);
 
-        ExplosionSpawnPosition = bomb.transform.position;
+        if (bomb != null)
+        {
+            ExplosionSpawnPosition = bomb.transform.position;
 
 
-        Explosion explosion = Instantiate(explosionPrefab, ExplosionSpawnPosition, Quaternion.identity);
-        explosion.SetActiveRenderer(explosion.start);
-        explosion.DestroyAfter(explosionDuration);
+            Explosion explosion = Instantiate(explosionPrefab, ExplosionSpawnPosition, Quaternion.identity);
+            explosion.SetActiveRenderer(explosion.start);
+            explosion.DestroyAfter(explosionDuration);
 
-        Explode(ExplosionSpawnPosition, Vector2.up, explosionRadius);
-        Explode(ExplosionSpawnPosition, Vector2.down, explosionRadius);
-        Explode(ExplosionSpawnPosition, Vector2.left, explosionRadius);
-        Explode(ExplosionSpawnPosition, Vector2.right, explosionRadius);
+            Explode(ExplosionSpawnPosition, Vector2.up, explosionRadius);
+            Explode(ExplosionSpawnPosition, Vector2.down, explosionRadius);
+            Explode(ExplosionSpawnPosition, Vector2.left, explosionRadius);
+            Explode(ExplosionSpawnPosition, Vector2.right, explosionRadius);
 
 
-        Destroy(bomb);
+            Destroy(bomb);
+        }
 
         bombsremaining++;
 
