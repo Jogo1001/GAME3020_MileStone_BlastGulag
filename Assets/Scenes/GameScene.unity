@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000531474271bf4307baf81a20b799603ea737775ce6b5edb18
+  m_ApplyToSortingLayers: 00000000531474271bf4307baf81a20b799603ea737775ce6b5edb18cb6c7b45
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -7967,6 +7967,37 @@ RectTransform:
   m_AnchoredPosition: {x: 38.4, y: 25.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1532536870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1532536871}
+  m_Layer: 0
+  m_Name: SlashLeftSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1532536871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532536870}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1239261892}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549946126
 GameObject:
   m_ObjectHideFlags: 0
@@ -8111,6 +8142,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1239261892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1793267521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793267522}
+  m_Layer: 0
+  m_Name: SlashDownSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793267522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793267521}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.568, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1239261892}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852506871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4526461074905881244, guid: ad97817b92b93a040a3c2ec3ba6fccb0, type: 3}
@@ -8139,12 +8201,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlashController
   slashUpPrefab: {fileID: 693573685368607128, guid: 219e754c020dd9446b2fc8ee0abff972, type: 3}
-  slashDownPrefab: {fileID: 5543830797914364997, guid: db675a224db34fe49a2ba7cb8116040a, type: 3}
-  slashLeftPrefab: {fileID: 5543830797914364997, guid: db675a224db34fe49a2ba7cb8116040a, type: 3}
+  slashDownPrefab: {fileID: 7320554858027158099, guid: 2574c12f9d798dc468b9d2da71b5840c, type: 3}
+  slashLeftPrefab: {fileID: 8702611866341067859, guid: 543ae0f35179a4b488253d262cc2e6d7, type: 3}
   slashRightPrefab: {fileID: 5543830797914364997, guid: db675a224db34fe49a2ba7cb8116040a, type: 3}
   slashUpSpawnPoint: {fileID: 465833884}
-  slashDownSpawnPoint: {fileID: 1687279666}
-  slashLeftSpawnPoint: {fileID: 1687279666}
+  slashDownSpawnPoint: {fileID: 1793267522}
+  slashLeftSpawnPoint: {fileID: 1532536871}
   slashRightSpawnPoint: {fileID: 1687279666}
   playerAnimator: {fileID: 1852506876}
 --- !u!1 &1905983570
@@ -8579,6 +8641,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5639214799426237050, guid: ad97817b92b93a040a3c2ec3ba6fccb0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 465833884}
+    - targetCorrespondingSourceObject: {fileID: 5639214799426237050, guid: ad97817b92b93a040a3c2ec3ba6fccb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1793267522}
+    - targetCorrespondingSourceObject: {fileID: 5639214799426237050, guid: ad97817b92b93a040a3c2ec3ba6fccb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1532536871}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4526461074905881244, guid: ad97817b92b93a040a3c2ec3ba6fccb0, type: 3}
       insertIndex: -1
