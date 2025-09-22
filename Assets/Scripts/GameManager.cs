@@ -83,9 +83,9 @@ public class GameManager : MonoBehaviour
     private void UpdateKillText()
     {
         if (killTextPlayer1 != null)
-            killTextPlayer1.text = $"Player 1 Kills: {killsPlayer1}";
-        if (killTextPlayer2 != null)
-            killTextPlayer2.text = $"Player 2 Kills: {killsPlayer2}";
+            killTextPlayer1.text = $" Score : {killsPlayer1}";
+        if (killTextPlayer2 != null) 
+            killTextPlayer2.text = $" Score : {killsPlayer2}";
     }
 
     private void UpdateTimerText()
