@@ -16,8 +16,8 @@ TagManager:
   - indestructibleblocks
   - Bomb
   - Explosion
-  - 
-  - 
+  - PlayerOne
+  - PlayerTwo
   - 
   - 
   - 
@@ -57,6 +57,9 @@ TagManager:
     locked: 0
   - name: Blocks
     uniqueID: 417029739
+    locked: 0
+  - name: Flag
+    uniqueID: 3684151261
     locked: 0
   - name: Player
     uniqueID: 2066805787

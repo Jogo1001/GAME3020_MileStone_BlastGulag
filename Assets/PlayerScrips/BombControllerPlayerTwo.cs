@@ -37,7 +37,7 @@ public class BombControllerPlayerTwo : MonoBehaviour
     private void Update()
     {
         // --- NEW: block bomb placing if stunned ---
-        if (playerController != null && playerController.isStunned)
+        if (playerController != null && (playerController.isStunned || playerController.isHoldingFlag))
             return;
 
         if (bombsremaining > 0 && Input.GetKeyDown(inputkey))
@@ -73,9 +73,11 @@ public class BombControllerPlayerTwo : MonoBehaviour
         Explode(ExplosionSpawnPosition, Vector2.left, explosionRadius);
         Explode(ExplosionSpawnPosition, Vector2.right, explosionRadius);
 
+        bombsremaining++;
+
         Destroy(bomb);
 
-        bombsremaining++;
+       
     }
 
     private void OnTriggerExit2D(Collider2D other)

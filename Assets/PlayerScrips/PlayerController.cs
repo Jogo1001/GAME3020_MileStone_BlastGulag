@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float playerMoveSpeed = 5f;
+    public float PlayerMoveSpeed = 5f;
     public Rigidbody2D playerRB;
     public bool isPlayerMoving;
 
@@ -25,6 +25,15 @@ public class PlayerController : MonoBehaviour
     public float flashInterval = 0.2f;
 
 
+    //new
+    [Header("Flag Holding")]
+    public bool isHoldingFlag = false;
+    public Transform flagHoldPoint; 
+    private Flag heldFlag;
+    private float originalMoveSpeed;
+
+    public Transform ResetFlagPosition;
+
     public int playerIndex = 1;
 
     private void Awake()
@@ -35,10 +44,13 @@ public class PlayerController : MonoBehaviour
       
         if (spriteRenderer == null)
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        originalMoveSpeed = PlayerMoveSpeed; //new
     }
 
     void Update()
     {
+      
         if (isStunned)
         {
           
@@ -79,8 +91,13 @@ public class PlayerController : MonoBehaviour
                 PlayerOneAnimator.SetBool("DownIdle", true);
         }
 
-    
-        if (!isStunned && Input.GetKeyDown(KeyCode.E))
+        //new
+        if (isHoldingFlag && Input.GetKeyDown(KeyCode.F))
+        {
+            DropFlag();
+        }
+
+        if (!isStunned && !isHoldingFlag && Input.GetKeyDown(KeyCode.E))
         {
             if (slashController != null)
                 slashController.PerformSlash(lastDirection);
@@ -91,7 +108,7 @@ public class PlayerController : MonoBehaviour
     {
         if (movement != Vector2.zero)
         {
-            playerRB.MovePosition(playerRB.position + movement * playerMoveSpeed * Time.fixedDeltaTime);
+            playerRB.MovePosition(playerRB.position + movement * PlayerMoveSpeed * Time.fixedDeltaTime);
         }
     }
 
@@ -107,6 +124,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
         {
+          
             // Find who spawned this explosion
             Explosion explosion = other.GetComponent<Explosion>();
             if (explosion != null && explosion.owner != null)
@@ -155,9 +173,11 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator StunPlayer()
     {
+        if (isStunned) yield break;
         isStunned = true;
+        ResetFlag();
 
-       
+
         float timer = 0f;
         Color originalColor = spriteRenderer.color;
         bool toggle = false;
@@ -174,6 +194,51 @@ public class PlayerController : MonoBehaviour
         isStunned = false;
     }
 
+    //new
+    public void PickUpFlag(Flag flag)
+    {
+        heldFlag = flag;
+        isHoldingFlag = true;
+
+        // attach flag
+        flag.AttachToPlayer(flagHoldPoint != null ? flagHoldPoint : transform);
+
+        // reduce speed
+        originalMoveSpeed = PlayerMoveSpeed;
+        PlayerMoveSpeed *= 0.5f; // half speed
+    }
+
+    public void DropFlag()
+    {
+        if (heldFlag != null)
+        {
+            heldFlag.Drop(transform.position);
+            heldFlag = null;
+        }
+
+        isHoldingFlag = false;
+        PlayerMoveSpeed = originalMoveSpeed;
+    }
+
+    public void ResetFlag()
+    {
+        if (!isStunned) return;
+
+        if (isHoldingFlag && heldFlag != null)
+        {
+
+            Vector3 resetPos = ResetFlagPosition != null ? ResetFlagPosition.position : transform.position;
+            heldFlag.Drop(resetPos);
 
 
+            heldFlag = null;
+            isHoldingFlag = false;
+
+
+            PlayerMoveSpeed = originalMoveSpeed;
+
+
+        }
+
+    }
 }

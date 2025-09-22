@@ -24,6 +24,15 @@ public class PlayerTwoController : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     private Color originalColor;
 
+    [Header("Flag Holding")]
+    public bool isHoldingFlag = false;
+    public Transform flagHoldPoint;
+    private Flag heldFlag;
+    private float originalMoveSpeed;
+
+    [Header("Reset Flag Position")]
+    public Transform ResetFlagPosition;
+
     public int playerIndex = 2; // kill tracking
 
     private void Awake()
@@ -55,11 +64,7 @@ public class PlayerTwoController : MonoBehaviour
                 lastDirection = Movement.normalized;
 
            
-            if (Input.GetKeyDown(KeyCode.Keypad1))
-            {
-                if (slashController != null)
-                    slashController.PerformSlash(lastDirection);
-            }
+   
         }
 
         // Animations
@@ -84,6 +89,16 @@ public class PlayerTwoController : MonoBehaviour
             else if (PlayerTwoAnimation.GetFloat("MoveY") < 0)
                 PlayerTwoAnimation.SetBool("DownIdle", true);
         }
+        if (isHoldingFlag && Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            DropFlag();
+        }
+        if (!isStunned && !isHoldingFlag && Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            if (slashController != null)
+                slashController.PerformSlash(lastDirection);
+        }
+       
     }
 
     void FixedUpdate()
@@ -153,6 +168,7 @@ public class PlayerTwoController : MonoBehaviour
     {
         if (isStunned) yield break;
         isStunned = true;
+        ResetFlag();
 
         // Flash sprite
         float elapsed = 0f;
@@ -173,5 +189,51 @@ public class PlayerTwoController : MonoBehaviour
             spriteRenderer.color = originalColor;
 
         isStunned = false;
+    }
+    public void PickUpFlag(Flag flag)
+    {
+        heldFlag = flag;
+        isHoldingFlag = true;
+
+        // attach flag
+        flag.AttachToPlayer(flagHoldPoint != null ? flagHoldPoint : transform);
+
+        // reduce speed
+        originalMoveSpeed = PlayerMoveSpeed;
+        PlayerMoveSpeed *= 0.5f; // half speed
+    }
+
+    public void DropFlag()
+    {
+        if (heldFlag != null)
+        {
+            heldFlag.Drop(transform.position);
+            heldFlag = null;
+        }
+
+        isHoldingFlag = false;
+        PlayerMoveSpeed = originalMoveSpeed;
+    }
+
+    public void ResetFlag()
+    {
+        if (!isStunned) return;
+
+        if (isHoldingFlag && heldFlag != null)
+        {
+
+            Vector3 resetPos = ResetFlagPosition != null ? ResetFlagPosition.position : transform.position;
+            heldFlag.Drop(resetPos);
+
+      
+            heldFlag = null;
+            isHoldingFlag = false;
+
+        
+            PlayerMoveSpeed = originalMoveSpeed;
+
+
+        }
+        
     }
 }
