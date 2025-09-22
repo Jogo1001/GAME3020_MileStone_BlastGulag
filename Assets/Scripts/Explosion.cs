@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
+
+    public MonoBehaviour owner;
+ 
+
     public AnimatedSpriteRenderer start;
     public AnimatedSpriteRenderer middle;
     public AnimatedSpriteRenderer end;
