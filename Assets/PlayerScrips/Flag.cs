@@ -55,6 +55,7 @@ public class Flag : MonoBehaviour
         }
     }
 
+
     private IEnumerator CaptureFlag(MonoBehaviour player)
     {
         isBeingCaptured = true;

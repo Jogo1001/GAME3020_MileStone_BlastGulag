@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float PlayerMoveSpeed = 5f;
-    public Rigidbody2D playerRB;
+    public Rigidbody2D PlayerRB;
     public bool isPlayerMoving;
 
     private Vector2 movement;
@@ -32,6 +32,12 @@ public class PlayerController : MonoBehaviour
     private Flag heldFlag;
     private float originalMoveSpeed;
 
+    [Header("Slash Layer")]
+    [SerializeField] public LayerMask slashLayer;
+
+    [Header("Reset Player Position")]
+    public Transform ResetPlayerPosition;
+
     public Transform ResetFlagPosition;
 
     public int playerIndex = 1;
@@ -39,7 +45,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         PlayerOneAnimator = GetComponent<Animator>();
-        playerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
+        PlayerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
 
       
         if (spriteRenderer == null)
@@ -108,7 +114,7 @@ public class PlayerController : MonoBehaviour
     {
         if (movement != Vector2.zero)
         {
-            playerRB.MovePosition(playerRB.position + movement * PlayerMoveSpeed * Time.fixedDeltaTime);
+            PlayerRB.MovePosition(PlayerRB.position + movement * PlayerMoveSpeed * Time.fixedDeltaTime);
         }
     }
 
@@ -122,6 +128,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if ((slashLayer.value & (1 << other.gameObject.layer)) > 0)
+        {
+            Debug.Log("PlayerOne hit by a slash!");
+
+            // Stun player for 1 second
+            StartCoroutine(StunPlayer(0.1f));
+            ResetFlag();
+        }
+
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
         {
           
@@ -131,6 +146,8 @@ public class PlayerController : MonoBehaviour
             {
                 // Pass the owner GameObject to DeathSequence
                 DeathSequence(explosion.owner.gameObject);
+                PlayerRB.position = ResetPlayerPosition.position;
+                transform.position = ResetPlayerPosition.position;
             }
             else
             {
@@ -142,7 +159,7 @@ public class PlayerController : MonoBehaviour
 
     public void DeathSequence(GameObject killerObject)
     {
-        Debug.Log("Player " + playerIndex + " died");
+ 
 
         if (killerObject != null)
         {
@@ -168,10 +185,10 @@ public class PlayerController : MonoBehaviour
         }
 
         // apply stun after death
-        StartCoroutine(StunPlayer());
+        StartCoroutine(StunPlayer(3f));
     }
 
-    private IEnumerator StunPlayer()
+    private IEnumerator StunPlayer(float duration)
     {
         if (isStunned) yield break;
         isStunned = true;

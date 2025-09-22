@@ -18,7 +18,7 @@ public class PlayerTwoController : MonoBehaviour
     [Header("Stun Settings")]
     public float stunDuration = 3f;        
     public Color flashColor = Color.red;   
-    public float flashInterval = 0.1f;   
+    public float flashInterval = 0.2f;   
 
     public bool isStunned = false;
     public SpriteRenderer spriteRenderer;
@@ -32,6 +32,12 @@ public class PlayerTwoController : MonoBehaviour
 
     [Header("Reset Flag Position")]
     public Transform ResetFlagPosition;
+
+    [Header("Reset Player Position")]
+    public Transform ResetPlayerPosition;
+
+    [Header("Slash Layer")]
+    [SerializeField] public LayerMask slashLayer;
 
     public int playerIndex = 2; // kill tracking
 
@@ -119,28 +125,38 @@ public class PlayerTwoController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+        if ((slashLayer.value & (1 << other.gameObject.layer)) > 0)
+        {
+        
+
+            // Stun player for 1 second
+            StartCoroutine(StunPlayer(0.1f));
+            ResetFlag();
+        }
+
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
         {
             Explosion explosion = other.GetComponent<Explosion>();
             if (explosion != null && explosion.owner != null)
             {
                 DeathSequence(explosion.owner.gameObject);
+                PlayerRB.position = ResetPlayerPosition.position; 
+                transform.position = ResetPlayerPosition.position;
             }
             else
             {
                 DeathSequence(null);
             }
+
         }
+ 
     }
 
 
     public void DeathSequence(GameObject killerObject)
     {
-        if (killerObject == null)
-        {
-            StartCoroutine(StunPlayer());
-            return;
-        }
+
 
         // Try PlayerController first
         PlayerController bombOwner = killerObject.GetComponentInParent<PlayerController>();
@@ -162,9 +178,9 @@ public class PlayerTwoController : MonoBehaviour
             }
         }
 
-        StartCoroutine(StunPlayer());
+        StartCoroutine(StunPlayer(3f));
     }
-    private IEnumerator StunPlayer()
+    private IEnumerator StunPlayer(float duration)
     {
         if (isStunned) yield break;
         isStunned = true;
