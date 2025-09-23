@@ -20,7 +20,7 @@ TagManager:
   - PlayerTwo
   - PlayerOneSlash
   - PlayerTwoSlash
-  - 
+  - Flag
   - 
   - 
   - 
@@ -58,6 +58,9 @@ TagManager:
   - name: Blocks
     uniqueID: 417029739
     locked: 0
+  - name: Destructible
+    uniqueID: 4276270911
+    locked: 0
   - name: Flag
     uniqueID: 3684151261
     locked: 0
@@ -66,6 +69,9 @@ TagManager:
     locked: 0
   - name: Slash
     uniqueID: 1165716683
+    locked: 0
+  - name: Ground
+    uniqueID: 222621851
     locked: 0
   m_RenderingLayers:
   - Default

@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: 81f8974165cc86f44a6b3fc499e2b414
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5683511791739856221
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_0
+  - first:
+      213: 2387184067253605377
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_1
+  - first:
+      213: 4747506615050834813
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_2
+  - first:
+      213: -4414956720627539316
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_3
+  - first:
+      213: -2246865860678082142
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_4
+  - first:
+      213: 2839770489721208558
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_5
+  - first:
+      213: -8803908699709990923
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_6
+  - first:
+      213: 1684740502721177725
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_7
+  - first:
+      213: 2579330709849601995
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_8
+  - first:
+      213: -4244557590883446118
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_9
+  - first:
+      213: 1224582519047619733
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_10
+  - first:
+      213: 1770011499749172606
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_11
+  - first:
+      213: -9095296047003977837
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_12
+  - first:
+      213: -5545347575000720275
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_13
+  - first:
+      213: -3855613556254353013
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_14
+  - first:
+      213: -2200303689894425556
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_15
+  - first:
+      213: 4216816556750271656
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_16
+  - first:
+      213: 5210120911256601223
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_17
+  - first:
+      213: -5663224075019176913
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_18
+  - first:
+      213: -8875568801599610827
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_19
+  - first:
+      213: 3562644949395457686
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_20
+  - first:
+      213: 8971956415348786854
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_21
+  - first:
+      213: -2201216225480919459
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_22
+  - first:
+      213: 6458101635912253457
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_23
+  - first:
+      213: 2003105121092120784
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_24
+  - first:
+      213: -3342221672082109501
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_25
+  - first:
+      213: -1661588614630113905
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_26
+  - first:
+      213: -3477880357019977921
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_27
+  - first:
+      213: -4461833270006460304
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_28
+  - first:
+      213: 5900420948356795074
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_29
+  - first:
+      213: 7117563748461836673
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_30
+  - first:
+      213: -5365306505782417977
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_31
+  - first:
+      213: -2515277380520934069
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_32
+  - first:
+      213: -4112608721858449883
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_33
+  - first:
+      213: -3017292325730262030
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_34
+  - first:
+      213: 4928809238038481071
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_35
+  - first:
+      213: 1478619739748364995
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_36
+  - first:
+      213: -5873644236967732029
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_37
+  - first:
+      213: -5220198842056788446
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_38
+  - first:
+      213: 1877244486997729878
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_39
+  - first:
+      213: 5480132346864994439
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_40
+  - first:
+      213: -8986736003662844199
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_41
+  - first:
+      213: 6527231777276303666
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_42
+  - first:
+      213: -7878693371968852561
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_43
+  - first:
+      213: 6395704197457110662
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_44
+  - first:
+      213: -2487842529291091623
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_45
+  - first:
+      213: -738152033825068831
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_46
+  - first:
+      213: 2726295094820661407
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_47
+  - first:
+      213: 7182936232003330072
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_48
+  - first:
+      213: -6334101168685587564
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_49
+  - first:
+      213: 3651042348036919260
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_50
+  - first:
+      213: 5114363741050922953
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_51
+  - first:
+      213: -4562217956044078788
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_52
+  - first:
+      213: -9171366678847331585
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_53
+  - first:
+      213: -1314396289304614332
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_54
+  - first:
+      213: -5658546783563288442
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_55
+  - first:
+      213: 5061201007142063898
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_56
+  - first:
+      213: -1299211396797326771
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_57
+  - first:
+      213: -8645641732193329734
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_58
+  - first:
+      213: -1416387309721999599
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_59
+  - first:
+      213: -1401263353223979943
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_60
+  - first:
+      213: 6654774565718615708
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_61
+  - first:
+      213: -5468748766492450010
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_62
+  - first:
+      213: -2635500051412957215
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_63
+  - first:
+      213: -1465745002055266639
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_64
+  - first:
+      213: -4930708664347244205
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_65
+  - first:
+      213: -5404140551956642015
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_66
+  - first:
+      213: 7009002720476126447
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_67
+  - first:
+      213: 8774334524419141760
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_68
+  - first:
+      213: -2966301141307601584
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_69
+  - first:
+      213: 2793487628212287426
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_70
+  - first:
+      213: -8897482852643272869
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_71
+  - first:
+      213: -6911240031146147748
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_72
+  - first:
+      213: 4449963585741305904
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_73
+  - first:
+      213: -5662463695862974293
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_74
+  - first:
+      213: -7076188465758882489
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_75
+  - first:
+      213: 8427403401632984828
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_76
+  - first:
+      213: 5775898654410415153
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_77
+  - first:
+      213: 2205419766921779751
+    second: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_0
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 669
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa1a90532c1021b0800000000000000
+      internalID: -5683511791739856221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 689
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1049f16e24bf02120800000000000000
+      internalID: 2387184067253605377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 690
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d731ceeec1882e140800000000000000
+      internalID: 4747506615050834813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 682
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a548014ceab2c0800000000000000
+      internalID: -4414956720627539316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 686
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1a454776781d0e0800000000000000
+      internalID: -2246865860678082142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_5
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 691
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee3873f634e86720800000000000000
+      internalID: 2839770489721208558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_6
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 655
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f790d6ceab32d580800000000000000
+      internalID: -8803908699709990923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_7
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 680
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78a863af86616710800000000000000
+      internalID: 1684740502721177725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 681
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc777de5d9f9bc320800000000000000
+      internalID: 2579330709849601995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_9
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 671
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9254b61c5d4815c0800000000000000
+      internalID: -4244557590883446118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 681
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5948cfd10579ef010800000000000000
+      internalID: 1224582519047619733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 662
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e7e2c418509810800000000000000
+      internalID: 1770011499749172606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_12
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 683
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39730572f6407c180800000000000000
+      internalID: -9095296047003977837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 671
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c1204d2c7fa03b0800000000000000
+      internalID: -5545347575000720275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_14
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 674
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89574406eb1e7ac0800000000000000
+      internalID: -3855613556254353013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_15
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 669
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c8cd5a373f671e0800000000000000
+      internalID: -2200303689894425556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_16
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 661
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4f5141154258a30800000000000000
+      internalID: 4216816556750271656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 673
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782c8484d511e4840800000000000000
+      internalID: 5210120911256601223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_18
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 668
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24ba0575bf2861b0800000000000000
+      internalID: -5663224075019176913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_19
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 660
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530ad112335a3d480800000000000000
+      internalID: -8875568801599610827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_20
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 668
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6964e8da4be017130800000000000000
+      internalID: 3562644949395457686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_21
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 661
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6c62503dac28c70800000000000000
+      internalID: 8971956415348786854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_22
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 661
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5632666185b371e0800000000000000
+      internalID: -2201216225480919459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_23
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 655
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1104beba839cf9950800000000000000
+      internalID: 6458101635912253457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_24
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 667
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d03676ae757ccb10800000000000000
+      internalID: 2003105121092120784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_25
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 656
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb0fead81b0e91d0800000000000000
+      internalID: -3342221672082109501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_26
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 663
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d732e55f9d0f8e0800000000000000
+      internalID: -1661588614630113905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_27
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 653
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37f38ced361cbfc0800000000000000
+      internalID: -3477880357019977921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 654
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070de3ed7426412c0800000000000000
+      internalID: -4461833270006460304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_29
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 648
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca841c379182e150800000000000000
+      internalID: 5900420948356795074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_30
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 646
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189f34dc48aa6c260800000000000000
+      internalID: 7117563748461836673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_31
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 636
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c52fbbd82a9a85b0800000000000000
+      internalID: -5365306505782417977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_32
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 657
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4589768c80f71dd0800000000000000
+      internalID: -2515277380520934069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_33
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 645
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e247138241de6c0800000000000000
+      internalID: -4112608721858449883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_34
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 658
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3e555bd9c6026d0800000000000000
+      internalID: -3017292325730262030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_35
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 664
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa882f653e5a66440800000000000000
+      internalID: 4928809238038481071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_36
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 660
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2f499b1dc158410800000000000000
+      internalID: 1478619739748364995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_37
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 657
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc9486bfaf9c7ea0800000000000000
+      internalID: -5873644236967732029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_38
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 661
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226bc4a9fc02e87b0800000000000000
+      internalID: -5220198842056788446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_39
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 658
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6526f043aef4d0a10800000000000000
+      internalID: 1877244486997729878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_40
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 662
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7880401a5575d0c40800000000000000
+      internalID: 5480132346864994439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 31
+        width: 1065
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de667be733b84380800000000000000
+      internalID: -8986736003662844199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_42
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 643
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239123bf7b2659a50800000000000000
+      internalID: 6527231777276303666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_43
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 646
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad629d0f1249a290800000000000000
+      internalID: -7878693371968852561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_44
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 641
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e7e9e41b12c850800000000000000
+      internalID: 6395704197457110662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_45
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 652
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951ce789668697dd0800000000000000
+      internalID: -2487842529291091623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_46
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 653
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8ef99d2ae81c5f0800000000000000
+      internalID: -738152033825068831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_47
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 646
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98eca7b1feb5d520800000000000000
+      internalID: 2726295094820661407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_48
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 650
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81067d8327aeea360800000000000000
+      internalID: 7182936232003330072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_49
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 648
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493eb1deb80c818a0800000000000000
+      internalID: -6334101168685587564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_50
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 623
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf06a6ebab1ba230800000000000000
+      internalID: 3651042348036919260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_51
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 574
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c76a75b9bed9f640800000000000000
+      internalID: 5114363741050922953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_52
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 540
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31851ec0febfa0c0800000000000000
+      internalID: -4562217956044078788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_53
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 488
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2637af892c8b080800000000000000
+      internalID: -9171366678847331585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_54
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 433
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a28e1f98352cde0800000000000000
+      internalID: -1314396289304614332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 437
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680f7cc3eadc871b0800000000000000
+      internalID: -5658546783563288442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_56
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 436
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f4d87208ffc3640800000000000000
+      internalID: 5061201007142063898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_57
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 448
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a91cd3e1648fde0800000000000000
+      internalID: -1299211396797326771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_58
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 403
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdd251b6a2840880800000000000000
+      internalID: -8645641732193329734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 338
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11726a30f3bf75ce0800000000000000
+      internalID: -1416387309721999599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cdf4a8766bd8ce0800000000000000
+      internalID: -1401263353223979943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_61
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 262
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9666f185328a5c50800000000000000
+      internalID: 6654774565718615708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_62
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 251
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623ac57b8f91b14b0800000000000000
+      internalID: -5468748766492450010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_63
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7c10eaaa2dc6bd0800000000000000
+      internalID: -2635500051412957215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_64
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 212
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be013dbfa0a8abe0800000000000000
+      internalID: -1465745002055266639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_65
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 228
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35944a2089a929bb0800000000000000
+      internalID: -4930708664347244205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_66
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 201
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274754ecc2a005b0800000000000000
+      internalID: -5404140551956642015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_67
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecd9b7c6daf44160800000000000000
+      internalID: 7009002720476126447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_68
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 225
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080f274f2c2b4c970800000000000000
+      internalID: 8774334524419141760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_69
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 221
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d468ff3d495d6d0800000000000000
+      internalID: -2966301141307601584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_70
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 198
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ba04823674c620800000000000000
+      internalID: 2793487628212287426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_71
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 182
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5781158c7ac58480800000000000000
+      internalID: -8897482852643272869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_72
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50031a1fc75610a0800000000000000
+      internalID: -6911240031146147748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_73
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 146
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038b887ed4271cd30800000000000000
+      internalID: 4449963585741305904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_74
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 113
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8ba860543ea61b0800000000000000
+      internalID: -5662463695862974293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_75
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 26
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745b9b6e4145ccd90800000000000000
+      internalID: -7076188465758882489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_76
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 9
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfea0455eb624f470800000000000000
+      internalID: 8427403401632984828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_77
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 26
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c1ac2693d182050800000000000000
+      internalID: 5775898654410415153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_78
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 16
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a5ffbd7993b9e10800000000000000
+      internalID: 2205419766921779751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_0: -5683511791739856221
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_1: 2387184067253605377
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_10: 1224582519047619733
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_11: 1770011499749172606
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_12: -9095296047003977837
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_13: -5545347575000720275
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_14: -3855613556254353013
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_15: -2200303689894425556
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_16: 4216816556750271656
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_17: 5210120911256601223
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_18: -5663224075019176913
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_19: -8875568801599610827
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_2: 4747506615050834813
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_20: 3562644949395457686
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_21: 8971956415348786854
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_22: -2201216225480919459
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_23: 6458101635912253457
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_24: 2003105121092120784
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_25: -3342221672082109501
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_26: -1661588614630113905
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_27: -3477880357019977921
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_28: -4461833270006460304
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_29: 5900420948356795074
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_3: -4414956720627539316
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_30: 7117563748461836673
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_31: -5365306505782417977
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_32: -2515277380520934069
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_33: -4112608721858449883
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_34: -3017292325730262030
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_35: 4928809238038481071
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_36: 1478619739748364995
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_37: -5873644236967732029
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_38: -5220198842056788446
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_39: 1877244486997729878
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_4: -2246865860678082142
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_40: 5480132346864994439
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_41: -8986736003662844199
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_42: 6527231777276303666
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_43: -7878693371968852561
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_44: 6395704197457110662
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_45: -2487842529291091623
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_46: -738152033825068831
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_47: 2726295094820661407
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_48: 7182936232003330072
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_49: -6334101168685587564
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_5: 2839770489721208558
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_50: 3651042348036919260
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_51: 5114363741050922953
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_52: -4562217956044078788
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_53: -9171366678847331585
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_54: -1314396289304614332
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_55: -5658546783563288442
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_56: 5061201007142063898
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_57: -1299211396797326771
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_58: -8645641732193329734
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_59: -1416387309721999599
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_6: -8803908699709990923
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_60: -1401263353223979943
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_61: 6654774565718615708
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_62: -5468748766492450010
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_63: -2635500051412957215
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_64: -1465745002055266639
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_65: -4930708664347244205
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_66: -5404140551956642015
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_67: 7009002720476126447
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_68: 8774334524419141760
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_69: -2966301141307601584
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_7: 1684740502721177725
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_70: 2793487628212287426
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_71: -8897482852643272869
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_72: -6911240031146147748
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_73: 4449963585741305904
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_74: -5662463695862974293
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_75: -7076188465758882489
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_76: 8427403401632984828
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_77: 5775898654410415153
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_78: 2205419766921779751
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_8: 2579330709849601995
+      player_1_wins_logo_sprite_by_nezukorempadeviart07_dh7sgtk_9: -4244557590883446118
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

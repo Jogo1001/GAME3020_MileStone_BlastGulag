@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -100,21 +102,26 @@ public class GameManager : MonoBehaviour
 
     private void EndMatch()
     {
-        // decide winner
-        string winner;
+  
         if (killsPlayer1 > killsPlayer2)
-            winner = "Player 1 Wins!";
+        {
+          
+            StartCoroutine(LoadSceneWithDelay("PlayerOneWin", 0.5f));
+        }
         else if (killsPlayer2 > killsPlayer1)
-            winner = "Player 2 Wins!";
+        {
+          
+            StartCoroutine(LoadSceneWithDelay("PlayerTwoWin", 0.5f));
+        }
         else
-            winner = "Draw!";
+        {
+         
+            StartCoroutine(LoadSceneWithDelay("DrawScene", 0.5f));
+        }
 
-        Debug.Log("Match ended. " + winner);
+     
 
-       
-        if (timerText != null)
-            timerText.text = winner;
-
+ 
    
         Time.timeScale = 0f;
     }
@@ -132,5 +139,11 @@ public class GameManager : MonoBehaviour
         remainingTime = matchDuration;
         UpdateKillText();
         UpdateTimerText();
+    }
+    IEnumerator LoadSceneWithDelay(string sceneName, float delay)
+    {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(delay);
+        SceneManager.LoadScene(sceneName);
     }
 }

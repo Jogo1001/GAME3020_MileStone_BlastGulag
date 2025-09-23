@@ -130,4 +130,8 @@ public class BombController : MonoBehaviour
             destructibleTiles.SetTile(cell, null);
         }
     }
+    public void ReturnBomb()
+    {
+        bombsremaining++;
+    }
 }
